@@ -1,0 +1,344 @@
+用例编号,a,b,c,期望值
+1,1899,0,0,Invalid date
+2,1899,0,1,Invalid date
+3,1899,0,2,Invalid date
+4,1899,0,15,Invalid date
+5,1899,0,30,Invalid date
+6,1899,0,31,Invalid date
+7,1899,0,32,Invalid date
+8,1899,1,0,Invalid date
+9,1899,1,1,Invalid date
+10,1899,1,2,Invalid date
+11,1899,1,15,Invalid date
+12,1899,1,30,Invalid date
+13,1899,1,31,Invalid date
+14,1899,1,32,Invalid date
+15,1899,2,0,Invalid date
+16,1899,2,1,Invalid date
+17,1899,2,2,Invalid date
+18,1899,2,15,Invalid date
+19,1899,2,30,Invalid date
+20,1899,2,31,Invalid date
+21,1899,2,32,Invalid date
+22,1899,6,0,Invalid date
+23,1899,6,1,Invalid date
+24,1899,6,2,Invalid date
+25,1899,6,15,Invalid date
+26,1899,6,30,Invalid date
+27,1899,6,31,Invalid date
+28,1899,6,32,Invalid date
+29,1899,11,0,Invalid date
+30,1899,11,1,Invalid date
+31,1899,11,2,Invalid date
+32,1899,11,15,Invalid date
+33,1899,11,30,Invalid date
+34,1899,11,31,Invalid date
+35,1899,11,32,Invalid date
+36,1899,12,0,Invalid date
+37,1899,12,1,Invalid date
+38,1899,12,2,Invalid date
+39,1899,12,15,Invalid date
+40,1899,12,30,Invalid date
+41,1899,12,31,Invalid date
+42,1899,12,32,Invalid date
+43,1899,13,0,Invalid date
+44,1899,13,1,Invalid date
+45,1899,13,2,Invalid date
+46,1899,13,15,Invalid date
+47,1899,13,30,Invalid date
+48,1899,13,31,Invalid date
+49,1899,13,32,Invalid date
+50,1900,0,0,Invalid date
+51,1900,0,1,Invalid date
+52,1900,0,2,Invalid date
+53,1900,0,15,Invalid date
+54,1900,0,30,Invalid date
+55,1900,0,31,Invalid date
+56,1900,0,32,Invalid date
+57,1900,1,0,Invalid date
+58,1900,1,1,1900年1月2日
+59,1900,1,2,1900年1月3日
+60,1900,1,15,1900年1月16日
+61,1900,1,30,1900年1月31日
+62,1900,1,31,1900年2月1日
+63,1900,1,32,Invalid date
+64,1900,2,0,Invalid date
+65,1900,2,1,1900年2月2日
+66,1900,2,2,1900年2月3日
+67,1900,2,15,1900年2月16日
+68,1900,2,30,Invalid date
+69,1900,2,31,Invalid date
+70,1900,2,32,Invalid date
+71,1900,6,0,Invalid date
+72,1900,6,1,1900年6月2日
+73,1900,6,2,1900年6月3日
+74,1900,6,15,1900年6月16日
+75,1900,6,30,1900年7月1日
+76,1900,6,31,Invalid date
+77,1900,6,32,Invalid date
+78,1900,11,0,Invalid date
+79,1900,11,1,1900年11月2日
+80,1900,11,2,1900年11月3日
+81,1900,11,15,1900年11月16日
+82,1900,11,30,1900年12月1日
+83,1900,11,31,Invalid date
+84,1900,11,32,Invalid date
+85,1900,12,0,Invalid date
+86,1900,12,1,1900年12月2日
+87,1900,12,2,1900年12月3日
+88,1900,12,15,1900年12月16日
+89,1900,12,30,1900年12月31日
+90,1900,12,31,1901年1月1日
+91,1900,12,32,Invalid date
+92,1900,13,0,Invalid date
+93,1900,13,1,Invalid date
+94,1900,13,2,Invalid date
+95,1900,13,15,Invalid date
+96,1900,13,30,Invalid date
+97,1900,13,31,Invalid date
+98,1900,13,32,Invalid date
+99,1901,0,0,Invalid date
+100,1901,0,1,Invalid date
+101,1901,0,2,Invalid date
+102,1901,0,15,Invalid date
+103,1901,0,30,Invalid date
+104,1901,0,31,Invalid date
+105,1901,0,32,Invalid date
+106,1901,1,0,Invalid date
+107,1901,1,1,1901年1月2日
+108,1901,1,2,1901年1月3日
+109,1901,1,15,1901年1月16日
+110,1901,1,30,1901年1月31日
+111,1901,1,31,1901年2月1日
+112,1901,1,32,Invalid date
+113,1901,2,0,Invalid date
+114,1901,2,1,1901年2月2日
+115,1901,2,2,1901年2月3日
+116,1901,2,15,1901年2月16日
+117,1901,2,30,Invalid date
+118,1901,2,31,Invalid date
+119,1901,2,32,Invalid date
+120,1901,6,0,Invalid date
+121,1901,6,1,1901年6月2日
+122,1901,6,2,1901年6月3日
+123,1901,6,15,1901年6月16日
+124,1901,6,30,1901年7月1日
+125,1901,6,31,Invalid date
+126,1901,6,32,Invalid date
+127,1901,11,0,Invalid date
+128,1901,11,1,1901年11月2日
+129,1901,11,2,1901年11月3日
+130,1901,11,15,1901年11月16日
+131,1901,11,30,1901年12月1日
+132,1901,11,31,Invalid date
+133,1901,11,32,Invalid date
+134,1901,12,0,Invalid date
+135,1901,12,1,1901年12月2日
+136,1901,12,2,1901年12月3日
+137,1901,12,15,1901年12月16日
+138,1901,12,30,1901年12月31日
+139,1901,12,31,1902年1月1日
+140,1901,12,32,Invalid date
+141,1901,13,0,Invalid date
+142,1901,13,1,Invalid date
+143,1901,13,2,Invalid date
+144,1901,13,15,Invalid date
+145,1901,13,30,Invalid date
+146,1901,13,31,Invalid date
+147,1901,13,32,Invalid date
+148,1975,0,0,Invalid date
+149,1975,0,1,Invalid date
+150,1975,0,2,Invalid date
+151,1975,0,15,Invalid date
+152,1975,0,30,Invalid date
+153,1975,0,31,Invalid date
+154,1975,0,32,Invalid date
+155,1975,1,0,Invalid date
+156,1975,1,1,1975年1月2日
+157,1975,1,2,1975年1月3日
+158,1975,1,15,1975年1月16日
+159,1975,1,30,1975年1月31日
+160,1975,1,31,1975年2月1日
+161,1975,1,32,Invalid date
+162,1975,2,0,Invalid date
+163,1975,2,1,1975年2月2日
+164,1975,2,2,1975年2月3日
+165,1975,2,15,1975年2月16日
+166,1975,2,30,Invalid date
+167,1975,2,31,Invalid date
+168,1975,2,32,Invalid date
+169,1975,6,0,Invalid date
+170,1975,6,1,1975年6月2日
+171,1975,6,2,1975年6月3日
+172,1975,6,15,1975年6月16日
+173,1975,6,30,1975年7月1日
+174,1975,6,31,Invalid date
+175,1975,6,32,Invalid date
+176,1975,11,0,Invalid date
+177,1975,11,1,1975年11月2日
+178,1975,11,2,1975年11月3日
+179,1975,11,15,1975年11月16日
+180,1975,11,30,1975年12月1日
+181,1975,11,31,Invalid date
+182,1975,11,32,Invalid date
+183,1975,12,0,Invalid date
+184,1975,12,1,1975年12月2日
+185,1975,12,2,1975年12月3日
+186,1975,12,15,1975年12月16日
+187,1975,12,30,1975年12月31日
+188,1975,12,31,1976年1月1日
+189,1975,12,32,Invalid date
+190,1975,13,0,Invalid date
+191,1975,13,1,Invalid date
+192,1975,13,2,Invalid date
+193,1975,13,15,Invalid date
+194,1975,13,30,Invalid date
+195,1975,13,31,Invalid date
+196,1975,13,32,Invalid date
+197,2049,0,0,Invalid date
+198,2049,0,1,Invalid date
+199,2049,0,2,Invalid date
+200,2049,0,15,Invalid date
+201,2049,0,30,Invalid date
+202,2049,0,31,Invalid date
+203,2049,0,32,Invalid date
+204,2049,1,0,Invalid date
+205,2049,1,1,2049年1月2日
+206,2049,1,2,2049年1月3日
+207,2049,1,15,2049年1月16日
+208,2049,1,30,2049年1月31日
+209,2049,1,31,2049年2月1日
+210,2049,1,32,Invalid date
+211,2049,2,0,Invalid date
+212,2049,2,1,2049年2月2日
+213,2049,2,2,2049年2月3日
+214,2049,2,15,2049年2月16日
+215,2049,2,30,Invalid date
+216,2049,2,31,Invalid date
+217,2049,2,32,Invalid date
+218,2049,6,0,Invalid date
+219,2049,6,1,2049年6月2日
+220,2049,6,2,2049年6月3日
+221,2049,6,15,2049年6月16日
+222,2049,6,30,2049年7月1日
+223,2049,6,31,Invalid date
+224,2049,6,32,Invalid date
+225,2049,11,0,Invalid date
+226,2049,11,1,2049年11月2日
+227,2049,11,2,2049年11月3日
+228,2049,11,15,2049年11月16日
+229,2049,11,30,2049年12月1日
+230,2049,11,31,Invalid date
+231,2049,11,32,Invalid date
+232,2049,12,0,Invalid date
+233,2049,12,1,2049年12月2日
+234,2049,12,2,2049年12月3日
+235,2049,12,15,2049年12月16日
+236,2049,12,30,2049年12月31日
+237,2049,12,31,2050年1月1日
+238,2049,12,32,Invalid date
+239,2049,13,0,Invalid date
+240,2049,13,1,Invalid date
+241,2049,13,2,Invalid date
+242,2049,13,15,Invalid date
+243,2049,13,30,Invalid date
+244,2049,13,31,Invalid date
+245,2049,13,32,Invalid date
+246,2050,0,0,Invalid date
+247,2050,0,1,Invalid date
+248,2050,0,2,Invalid date
+249,2050,0,15,Invalid date
+250,2050,0,30,Invalid date
+251,2050,0,31,Invalid date
+252,2050,0,32,Invalid date
+253,2050,1,0,Invalid date
+254,2050,1,1,2050年1月2日
+255,2050,1,2,2050年1月3日
+256,2050,1,15,2050年1月16日
+257,2050,1,30,2050年1月31日
+258,2050,1,31,2050年2月1日
+259,2050,1,32,Invalid date
+260,2050,2,0,Invalid date
+261,2050,2,1,2050年2月2日
+262,2050,2,2,2050年2月3日
+263,2050,2,15,2050年2月16日
+264,2050,2,30,Invalid date
+265,2050,2,31,Invalid date
+266,2050,2,32,Invalid date
+267,2050,6,0,Invalid date
+268,2050,6,1,2050年6月2日
+269,2050,6,2,2050年6月3日
+270,2050,6,15,2050年6月16日
+271,2050,6,30,2050年7月1日
+272,2050,6,31,Invalid date
+273,2050,6,32,Invalid date
+274,2050,11,0,Invalid date
+275,2050,11,1,2050年11月2日
+276,2050,11,2,2050年11月3日
+277,2050,11,15,2050年11月16日
+278,2050,11,30,2050年12月1日
+279,2050,11,31,Invalid date
+280,2050,11,32,Invalid date
+281,2050,12,0,Invalid date
+282,2050,12,1,2050年12月2日
+283,2050,12,2,2050年12月3日
+284,2050,12,15,2050年12月16日
+285,2050,12,30,2050年12月31日
+286,2050,12,31,2051年1月1日
+287,2050,12,32,Invalid date
+288,2050,13,0,Invalid date
+289,2050,13,1,Invalid date
+290,2050,13,2,Invalid date
+291,2050,13,15,Invalid date
+292,2050,13,30,Invalid date
+293,2050,13,31,Invalid date
+294,2050,13,32,Invalid date
+295,2051,0,0,Invalid date
+296,2051,0,1,Invalid date
+297,2051,0,2,Invalid date
+298,2051,0,15,Invalid date
+299,2051,0,30,Invalid date
+300,2051,0,31,Invalid date
+301,2051,0,32,Invalid date
+302,2051,1,0,Invalid date
+303,2051,1,1,Invalid date
+304,2051,1,2,Invalid date
+305,2051,1,15,Invalid date
+306,2051,1,30,Invalid date
+307,2051,1,31,Invalid date
+308,2051,1,32,Invalid date
+309,2051,2,0,Invalid date
+310,2051,2,1,Invalid date
+311,2051,2,2,Invalid date
+312,2051,2,15,Invalid date
+313,2051,2,30,Invalid date
+314,2051,2,31,Invalid date
+315,2051,2,32,Invalid date
+316,2051,6,0,Invalid date
+317,2051,6,1,Invalid date
+318,2051,6,2,Invalid date
+319,2051,6,15,Invalid date
+320,2051,6,30,Invalid date
+321,2051,6,31,Invalid date
+322,2051,6,32,Invalid date
+323,2051,11,0,Invalid date
+324,2051,11,1,Invalid date
+325,2051,11,2,Invalid date
+326,2051,11,15,Invalid date
+327,2051,11,30,Invalid date
+328,2051,11,31,Invalid date
+329,2051,11,32,Invalid date
+330,2051,12,0,Invalid date
+331,2051,12,1,Invalid date
+332,2051,12,2,Invalid date
+333,2051,12,15,Invalid date
+334,2051,12,30,Invalid date
+335,2051,12,31,Invalid date
+336,2051,12,32,Invalid date
+337,2051,13,0,Invalid date
+338,2051,13,1,Invalid date
+339,2051,13,2,Invalid date
+340,2051,13,15,Invalid date
+341,2051,13,30,Invalid date
+342,2051,13,31,Invalid date
+343,2051,13,32,Invalid date
